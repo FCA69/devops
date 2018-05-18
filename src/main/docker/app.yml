@@ -1,7 +1,7 @@
 version: '2'
 services:
     devops-app:
-        image: FCA69/devops-repo:latest
+        image: fcas1973/devops-repo:latest
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://devops-mysql:3306/devops?useUnicode=true&characterEncoding=utf8&useSSL=false
